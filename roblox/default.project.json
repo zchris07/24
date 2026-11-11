@@ -1,0 +1,28 @@
+{
+  "name": "TwentyFour",
+  "tree": {
+    "$className": "DataModel",
+    "Players": {
+      "$properties": {
+        "CharacterAutoLoads": false
+      }
+    },
+    "ReplicatedStorage": {
+      "TwentyFour": {
+        "$path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "TwentyFourServer": {
+        "$path": "src/server/TwentyFourServer.server.luau"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "TwentyFourClient": {
+          "$path": "src/client/TwentyFourClient"
+        }
+      }
+    }
+  }
+}
